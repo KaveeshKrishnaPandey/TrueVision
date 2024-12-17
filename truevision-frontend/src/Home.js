@@ -50,7 +50,7 @@ function Home() {
       setConfidence(null);
 
       // Send a POST request to the Flask server
-      const response = await axios.post("http://127.0.0.1:5000/upload", formData);
+      const response = await axios.post("https://truevision.onrender.com/upload", formData);
       const { prediction, confidence } = response.data; // Extract prediction and confidence from the response
       setPrediction(prediction);
       setConfidence(confidence);
