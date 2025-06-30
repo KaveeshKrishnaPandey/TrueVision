@@ -57,5 +57,5 @@ def upload_file():
         return jsonify({'error': str(e)}), 500  # Send an error message to the client
 
 # Run the Flask app
-# if __name__ == "__main__":
-#     app.run(debug=True)  # Run the app in debug mode, enabling live reloading and error messages
+if __name__ == "__main__":
+    app.run(debug=True)  # Run the app in debug mode, enabling live reloading and error messages

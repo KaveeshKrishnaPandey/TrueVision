@@ -61,12 +61,12 @@
 
 # Instructions for running the app
 1. In the terminal you used to setup the backend, run the *main.py* file
-   --> [python main.py]
+   --> [python app.py]
    (The backend server will start on localhost:5000)
 
 **When you see the following kind of message on the terminal, that means the backend is live:**
  * Debugger is active!
- * Debugger PIN: 120-393-377
+ * Debugger PIN: xxx-xxx-xxx
 
 2. In the terminal you used to setup the frontend, run the react app
    --> [npm start]
